@@ -15,7 +15,7 @@ SwiftSimplePhotoPicker is a simple image picker, allowing the user to pick a sin
 
 ```swift
 SwiftSimplePhotoPicker.shared.showPicker(in: self) { (photo) in
-    self.imageView.image = photo
+    // Handle the photo picked by the user
 }
 ```
 
